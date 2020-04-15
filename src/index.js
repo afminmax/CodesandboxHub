@@ -6,6 +6,9 @@ const size = "large";
 var date = new Date();
 // console.log(date);
 const img = "https://picsum.photos/200";
+const customStyle = { color: "tan", border: "1px solid white" };
+
+customStyle.color = "aqua";
 
 ReactDOM.render(
   <div>
@@ -29,6 +32,8 @@ ReactDOM.render(
       <img className="shipPics" src="cobra_mk3.jpg" alt="picture" />
       <img className="shipPics" src={img + "?grayscale"} alt="ship picture" />
     </ul>
+    <h1 style={{ color: "blue" }}>A fleet carrier is moot.</h1>
+    <h1 style={customStyle}>Planetary Landings</h1>
   </div>,
   document.getElementById("root")
 );
