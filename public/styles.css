@@ -2,3 +2,16 @@ body {
   background-color: black;
   color: rgb(255, 0, 221);
 }
+
+.heading {
+  color: royalblue;
+}
+
+.shipPics {
+  height: 100px;
+  width: 100px;
+}
+
+ul {
+  color: green;
+}
